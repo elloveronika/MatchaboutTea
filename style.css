@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+
+  /* border: plum solid; */
+}
+.main {
+  display: flex;
+  background-color: rgb(170, 216, 170);
+}
+.nav {
+  /* display: flex; */
+  width: 20%;
+
+  background-color: rgba(17, 97, 17, 0.445);
+  height: 100vh;
+}
+nav ul li {
+  /* background-color: rgba(17, 97, 17, 0.445); */
+  padding: 2rem 2rem 2rem 2rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+li:hover {
+  background-color: royalblue;
+}
+.land {
+  width: 80%;
+  border: palevioletred solid;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: royalblue;
+  align-items: center;
+}
+h1 {
+  background-color: blue;
+  justify-content: space-around;
+}
+img {
+  object-fit: contain;
+  width: 30%;
+}
